@@ -1,0 +1,560 @@
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+/* body{
+    display: grid;
+} */
+
+
+nav{
+   
+    overflow: hidden;
+    padding: 20px 30px;
+    font-size: 15px;
+    font-family: 'Cairo', sans-serif;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    float: right;
+    color: #2B2B2B;
+    text-align: center;
+    padding: 0px 15px;
+    text-decoration: none;
+    
+}
+.navBar{
+    margin-right: 170px;
+}
+
+ul li a:hover{
+    color: #EE8E3D;
+    
+}
+/* ul li button{
+    float: left;
+    text-align: center;
+} */
+
+.logoImg{
+    
+    position: absolute;
+    top: 15px;
+    right: 60px;
+    width: 50px;
+    height: 55px;
+    margin: 0px 35px;
+}
+
+
+.myBtn{
+    float: left;
+    margin-right: 10px;
+    width: 103px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 600 ;
+    font-family: 'Cairo', sans-serif; padding: 6px 15px;
+}
+
+/* ////////////section1//////////// */
+.sec1{
+    padding-bottom: 120px;
+}
+.fSection{
+    align-items: center;
+    margin-top: 90px;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.sec1MainTxt{
+    display: flex;
+    text-align: center;
+    float: right;
+}
+
+.txt1{
+    font-family: 'Cairo', sans-serif;
+    font-weight: 1000;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-size: 95px;
+    color: #f4a825;
+}
+
+.txt2{
+    font-family: 'Cairo', sans-serif;
+    font-weight: 1000;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-size: 95px;
+    color: #3485b9;
+    margin-left: 20px;
+}
+
+.sec1Paragraph{
+    font-family: 'Cairo', sans-serif;
+    text-align: right;
+    margin: 15px 0px 30px;
+}
+
+.sec1Btn{
+    float: right;
+}
+
+.sec1Img{
+    width: 530px;
+}
+
+.sec1RightSide{
+    margin-top: 35px;
+}
+
+.arrow{
+    margin: 5px 10px;
+}
+
+/* ////////////اخبار//////////// */
+.newsSec{
+    margin-bottom: 50px;
+    background-color: #F8F8F8;
+}
+
+.newsSec h1{
+    font-family: 'Cairo', sans-serif;
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+}
+
+.newsSec h1:after{
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 70px;
+    background-color: #3485b9;
+    margin-left: 20px;
+    top: -13px;
+}
+
+.myCard{
+    position: relative;
+    text-align: right;
+    box-shadow: 0px 60px 99px #00000014;
+    border-radius: 30px;
+    opacity: 1;
+}
+
+.newsImg{
+    width: 100%;
+}
+
+.row{
+    margin-top: 50px;
+}
+
+.date{
+    margin-top: 10px;
+}
+
+.myBtns{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-outline-warning {
+    color: #828282;
+    border-color: #D1D1D1;
+}
+
+.myStyle{
+    margin: 30px 50px;
+}
+.artical{
+    padding-bottom: 20px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.date{
+    color: #919191;
+    font-family: 'Cairo', sans-serif;
+    font-size: 13px;
+}
+/* ////////////خدمات//////////// */
+
+.serviceSec{
+    margin-bottom: 50px;
+}
+
+.serviceSec h1{
+    font-family: 'Cairo', sans-serif;
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+}
+
+.serviceSec h1:after{
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 70px;
+    background-color: #3485b9;
+    margin-left: 20px;
+    top: -13px;
+}
+
+.servicesHead{
+    font-family: 'Cairo', sans-serif;
+    color: black;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.iconBackground{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    opacity: 0.16;
+}
+
+.iconBackgroundColor1{
+    background-color: #0BAAE5;
+}
+
+.iconBackgroundColor2{
+    background-color: #530BE5;
+}
+
+.iconBackgroundColor3{
+    background-color: #E55D0B;
+}
+
+.iconBackgroundColor4{
+    background-color: #E5B80B;
+}
+.servicIcons{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.serviceP{
+    color: #919191;
+    font-family: 'Cairo', sans-serif;
+    
+    padding-bottom: 15px;
+}
+
+.containerHaight{
+    height: 360px;
+}
+
+/* ////////////نتيجة//////////// */
+
+.sec4{
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    background-color: #F8AA2A;
+}
+
+.sec4MainImage{
+    width: 550px;
+    border-radius: 10px;
+}
+
+.sec4Right{
+    margin-top: 20px;
+    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+.sec4Head{
+    font-family: 'Cairo', sans-serif;
+    margin-top: 100px;
+    margin-right: 50px;
+    height: 0px;
+}
+
+.sec4Txt{
+    font-family: 'Cairo', sans-serif;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-right: 50px;
+}
+
+.sec4Btn{
+    height: 40px;
+    background-color: #071652;
+    color: white;
+    width: 160px;
+    margin-top: -50px;
+    margin-right: 50px;
+}
+
+.sec4txtImage{
+    position: absolute;
+    width: 330px;
+    bottom: 0px;
+    right: 100px;
+    mix-blend-mode: color-burn;
+    opacity: 0.41;
+}
+
+
+/* ////////////قطاعتنا//////////// */
+.sec5{
+    margin: 100px 0px;
+}
+.sec5 h1{
+    font-family: 'Cairo', sans-serif;
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+}
+
+.sec5 h1:after{
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 70px;
+    background-color: #3485b9;
+    margin-left: 20px;
+    top: -13px;
+}
+
+.sec5Imgs{
+    width: 100%;
+}
+
+.sec5Txt{
+    color: white;
+    text-align: center;
+    height: 60px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.sec5TxtColor1{
+    background-color: #00D586;
+}
+.sec5TxtColor2{
+    background-color: #F86707;
+}
+
+.sec5TxtColor3{
+    background-color: #07BEF8;
+}
+
+.sec5 .sec5Txt p{
+    padding-top: 15px;
+}
+
+.card2{
+    padding-top: 55px;
+}
+
+/* ////////////قطاعتنا//////////// */
+.sec6{
+    margin: 100px 0px;
+}
+.sec6 h1{
+    font-family: 'Cairo', sans-serif;
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+}
+
+.sec6 h1:after{
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 70px;
+    background-color: #3485b9;
+    margin-left: 20px;
+    top: -13px;
+}
+
+.sec6Artica{
+    font-family: 'Cairo', sans-serif;
+    padding-top: 15px;
+}
+
+.sec6Btn{
+    margin: 0px 20px 20px;
+    font-family: 'Cairo', sans-serif;
+}
+
+/* ////////////عملائنا المميزون//////////// */
+.sec7{
+    margin: 100px 0px;
+}
+
+.sec7 h1{
+    font-family: 'Cairo', sans-serif;
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+}
+
+.sec7 h1:after{
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 70px;
+    background-color: #3485b9;
+    margin-left: 20px;
+    top: -13px;
+}
+
+.sec7Imgs{
+    width: 289px;
+    
+}
+
+.sec7 .row{
+    margin-right: 50px;
+}
+
+/* ////////////عملائنا المميزون//////////// */
+.sec8{
+    margin: 100px 0px;
+}
+
+.sec8 h1{
+    font-family: 'Cairo', sans-serif;
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+}
+
+.sec8 h1:after{
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 70px;
+    background-color: #3485b9;
+    margin-left: 20px;
+    top: -13px;
+}
+
+.map iframe{
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sec8Form{
+    text-align: right;
+    font-family: 'Cairo', sans-serif;
+}
+
+form input, textarea, select{
+    text-align: end;
+    background-color: #F2F1F5 !important; 
+}
+
+/* ////////////Footer//////////// */
+
+footer{
+    background-color: #3485B9;
+    color: white;
+}
+
+.social, .contact{
+    text-align: right;
+    margin-top: 40px;
+}
+
+.fa-instagram, .fa-facebook-f{
+    margin-right: 20px;
+}
+
+.socialIcons i , .contactIcon {
+    color: #F6C608;
+}
+
+.socialBtn{
+    display: flex;
+    margin-top: 20px;
+}
+
+.footerBtn{
+    border: none;
+    width: 30%;
+    height: 40px;
+    border-radius: 7px 0 0 7px;
+    font-weight: 700;
+}
+
+.footerInput{
+    width: 70%;
+    height: 40px;
+    border-radius: 0 7px 7px 0;
+    text-align: right;
+    border: none;
+}
+
+.contactIcons{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+}
+
+.fa-solid{
+    padding-top: 0px;
+    font-size: 25px;
+}
+
+.contactIcons p{
+    padding: 0px 10px 10px;
+}
+
+.footerNav{
+    margin-top: 40px;
+    text-align: end;
+}
+
+.footerNav a{
+    color: white;
+}
+
+.footerLogo{
+    margin-top: 40px;
+    text-align: right;
+}
+
+.address{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+}
+
+.address p{
+    margin-right: 10px;
+}
+
+.copyright{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
